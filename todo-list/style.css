@@ -1,0 +1,82 @@
+html{
+    margin:0;
+    font-size: 62.5%;
+    background-color: rgba(37, 187, 65, 0.3);
+}
+
+#container{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+}
+
+input{
+    width: 40rem;
+    height: 3rem;
+    border: rgba(238, 238, 238, 1) solid 2pt;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+
+ul{
+    margin: auto;
+    padding: 0;
+    width: 60rem;
+}
+
+li{
+    list-style: none;
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    height: fit-content;
+    width: 60rem;
+    font-size: 2rem;
+    align-self: center;
+    background-color: whitesmoke;
+    border:  solid rgba(37, 187, 65, 0.5) 2pt;
+    box-shadow: 1rem 1rem 2rem rgba(37, 187, 65, 0.3);
+    word-wrap: break-word;
+    justify-items: space-between;
+}
+
+#task-add, .delete{
+    width: 6rem;
+    height: 3.5rem;
+    background-color: rgba(238, 238, 238, 1);
+    border: solid rgba(218, 223, 225, 1) 2pt;
+    margin-left: 2rem;
+}
+
+#task-add:hover, .delete:hover{
+    cursor: pointer;
+    background-color: rgba(238, 238, 238, 0.6);
+    border: rgba(218, 223, 225, 1) solid 2pt;
+}
+
+#task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mods{
+    float: right;
+    width: 6rem;
+    height: 3.5rem;
+    background-color: rgba(238, 238, 238, 1);
+    border: solid rgba(218, 223, 225, 1) 2pt;
+    cursor: pointer;
+}
+
+.done{
+    background-color: red;
+}
